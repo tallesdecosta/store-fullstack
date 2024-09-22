@@ -1,0 +1,29 @@
+:root {
+
+    --main-bg: #FFFFFF;
+    --sec-bg: #404040;
+}
+
+*, 
+*::after, 
+*::before {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Calibri;
+
+}
+
+header, 
+main {
+
+    background-color: var(--main-bg);
+
+} 
+
+footer {
+
+    background-color: var(--sec-bg);
+
+}
